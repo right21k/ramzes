@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gradient</title>
+	<style type="text/css">
+		p{
+			font-size: 1in;
+			color: rgb(255, 255, 0);
+			background: linear-gradient(#0f0,#f0f);
+		}
+		div{
+			width: 300px;
+			height: 300px;
+			font-size: 50px;
+			text-align: center;
+			margin: 20px;
+			float: left;
+		}
+		
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо градієнти</p>
+<div style="background: linear-gradient(to right,yellow,blue);">Лінійний градіент</div>
+<div style="background: linear-gradient(to left,yellow,blue);">Лінійний градіент</div> 
+<div style="background: linear-gradient(45deg,yellow,blue);">Лінійний градіент</div>
+<div style="background: linear-gradient(45deg,blue,yellow);">Лінійний градіент</div>
+<div style="background: linear-gradient(225deg,yellow 0% 50%,blue);">Лінійний градіент</div>
+<div style="background: linear-gradient(to top,yellow 50%,blue 50%);width:500px;"></div>
+<div style="background: linear-gradient(to top,black 50%,red 50%);width:500px;"></div>
+<div style="background: linear-gradient(to top,red 0% 25%,blue 25% 50% ,yellow 50% 75% ,green 75% 100% );width:500px;"></div>
+<div style="background: linear-gradient(to top,red 36%,blue 36%,yellow 36%,);width:500px;"></div>
+<div style="background: radial-gradient(yellow,blue)"></div>
+<div style="background: radial-gradient(yellow 20%,blue 50%)">Радиальній градієнт</div>
+<div style="background: radial-gradient(yellow 20%,blue 50%);border-radius:100%">Радиальній градієнт</div>
+<div style="background: radial-gradient(circle at 0px 150px,yellow 25%,blue 25% 50%,green 50% 75%,red 75% 100%);border-radius: 100%;"></div>
+<div style="background: conic-gradient(blue,yellow,red);"></div>
+<div style="background: conic-gradient(at 75px 75px,blue 25%,yellow 25% 50%,red 50% 75%,green 75% 100%);"></div>
+<div style="background: repeating-linear-gradient(blue 40px,yellow 80px,red 60px);"></div>
+<div style="background: repeating-conic-gradient(blue 10%,yellow 20%,red 30%);border-radius: 100%;"></div>
+<div style="background:linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255,0) 70.71%),linear-gradient(217deg,rgba(255, 0, 0, 0.8),rgba(255, 0, 0, 0) 70.71%) ;"></div>
+<div style="background: radial-gradient(
+      circle at 50% 0,
+      rgba(255, 0, 255, 0.5),
+      rgba(0, 189, 255, 0) 70.71%
+    ),
+    radial-gradient(
+      circle at 6.7% 75%,
+      rgba(144, 0, 255, 0.5),
+      rgba(0, 255, 255, 0) 70.71%
+    ),
+    radial-gradient(
+        circle at 93.3% 75%,
+        rgba(144, 255, 0, 0.5),
+        rgba(78, 0, 123, 0) 70.71%
+      ) beige;
+  border-radius: 50%;"></div>
+</body>
+</html>

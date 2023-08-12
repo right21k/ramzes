@@ -1,0 +1,26 @@
+body{
+	background-color: hotpink;
+	background-image: url(https://media.tenor.com/wvDyYLTH4vEAAAAC/zxc-cat.gif);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+}
+p{
+	font-size: 15mm;
+	color: violet;
+	background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-37hacs394rfnlye6q17b1otbsizghpa9fhni65z6lb6gploak.jpeg)
+}
+.img1{
+	width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 25%;
+	box-shadow: 20px -20px 50px yellow;
+}
+div{
+	background:linear-gradient(rgba(255, 255, 0, 0.5)),linear-gradient(rgba(0, 0, 255, 0.5)), url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/bfi_thumb/2021_iStock_LatestBGTrends_Hero.jpg-37hacs394rfnlye6q17b1otbsizghpa9fhni65z6lb6gploak.jpeg) ;
+	width: 300px;
+	height: 300px;
+
+}

@@ -1,0 +1,28 @@
+body{
+	background-image: url(https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg?w=2000);
+	background-size: cover;
+}
+p{
+	font-size: 50px;
+	color: #005fab;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 2px 7px black ;
+}
+ul,ol{
+	font-size: 24px;
+	color: #404040;
+	margin-left: 100px;
+}
+ul li::marker{
+	margin-right: 20px;
+	color: ;
+}
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+ul.cd{
+	list-style: circled-digits;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rampart+One&family=Stick&family=Vollkorn+SC&display=swap');
+body{
+	background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+	background-size: cover;
+}
+p{
+	font-size: 50pt;
+	
+}
+.p1{
+	font-size: 50pt;
+	background: repeating-linear-gradient(60deg,orange 10%,blue 20%);
+	text-align: center;
+	color: #123456;
+}
+.p5{
+	font-family: 'Kablammo', cursive;
+}
+.p6{
+	font-family: 'Pattaya', sans-serif;
+}
+.p7{
+	font-family: 'Rubik Moonrocks', cursive;
+}
+.p2{
+	font-family: 'Pacifico', cursive;
+}
+.p3{
+	font-family: 'Rampart One', cursive;
+}
+.p4{
+	font-family: 'Stick', sans-serif
+}
+.p8{
+	text-decoration:overline ;
+	text-underline-position: under;
+
+}
+.p9{
+	text-decoration: blue wavy underline;
+	text-underline-position: under;
+	text-emphasis:text-emphasis: filled double-circle #ffb703;;
+
+}
+.p10{
+	font-family: monospace;
+	font-weight: 900;
+	font-style: italic;
+}
+.p11{
+	text-shadow: red 2px -2px,orange 4px -4px 7px ;
+}
+.leeter{
+	font-size: 1.5em;
+	font-family: 'Stick', sans-serif;
+	color: darkgoldenrod;
+
+}
+.p12{
+	color:#ffffff;
+	text-shadow: black 2px -2px;
+}
+.rtv{
+	font-family: 'Kablammo', cursive;
+	color: green;
+
+}
